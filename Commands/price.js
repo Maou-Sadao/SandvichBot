@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 module.exports = {
     name: 'price',
     description: "Scraps the current price of MvM Tour of Duty Tickets from MarketPlace.tf",
-    execute(message, args, userTag) {
+    run: async (message, args, userTag) => {
         axios
         .get('https://marketplace.tf/items/tf2/725;6;uncraftable')
             .then((response) => {
