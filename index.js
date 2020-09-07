@@ -43,4 +43,4 @@ client.on('message', async message => {
 //rule.hour = 21;
 //rule.minute = 20;
 
-client.login('NzQ3NTQwNTIwNTIzMzk5MjE4.X0QXXA.psoKh_19anmfrUhOKwqGcnuaciQ');
+client.login('');
