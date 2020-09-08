@@ -17,3 +17,5 @@ Created by Maou Sadao (kj)
 # Credits
 - Hitomi 
   - https://github.com/nanami-hitomi
+- Mogi
+  - https://github.com/Dnantz
