@@ -15,6 +15,5 @@ Created by Maou Sadao (kj)
 - random-puppy
 
 # Credits
-
-People helped me out 
-Hitomi: https://github.com/nanami-hitomi
+-Hitomi 
+  - https://github.com/nanami-hitomi
