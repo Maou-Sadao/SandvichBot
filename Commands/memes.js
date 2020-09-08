@@ -16,5 +16,6 @@ module.exports = {
                 .setURL(`https://reddit.com/r/${REEE})`);
             message.channel.send(embed);
         });
+        console.log(userTag+' Used the meme command');
     }
 }

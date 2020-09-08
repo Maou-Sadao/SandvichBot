@@ -2,9 +2,10 @@ const Discord = require("discord.js");
 
 module.exports = {
     name: 'help',
-    description: "Prints a list of commands as a guide for users",
+    description: 'Outputs a list of commands',
     run: async (message, args, userTag) => {
-        message.channel.send('```Current Command List: \n1. s!price - Current price of MvM Tickets\n2. s!medic - Medic got that charge\n3. s!help - Commandception```');
+        message.channel.send('```Current Command List: \n1. s!price - Current price of MvM Tickets\n2. s!medic - Medic got that charge\n3. s!help - Commandception\n4. s!meme - Pulls random meme image from one of 2 TF2 Shitposting subreddits```');
         console.log(userTag+' Used the Help Command');
     }
+    
 }
