@@ -18,4 +18,3 @@ Created by Maou Sadao (kj)
 
 People helped me out 
 Hitomi: https://github.com/nanami-hitomi
-Mogi: https://github.com/Dnantz
