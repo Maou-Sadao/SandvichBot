@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('./config.json');
 
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./Commands').filter(file => file.endsWith('.js'));
@@ -12,11 +13,11 @@ for (const file of commandFiles) {
     console.log(`${file} loaded!`)
 }
 
-const prefix = 's!';  //Selected prefix for SandvichBot
+const prefix = config.prefix;
 
 client.once('ready', () => {  
     console.log('Sandvich is available in the fridge');
-    client.channels.cache.get('').send('The Sandvich is available in the Fridge. Commands will be accepted. \n ```Prefix: s!```')
+    client.channels.cache.get('745807346927927316').send('The Sandvich is available in the Fridge. Commands will be accepted. \n ```Prefix: s!```')
     //Currently only able to post start up messages in specific channels based on ID
 });
 
@@ -43,9 +44,4 @@ client.on('message', async message => {
     }
 });
 
-//var rule = new schedule.RecurrenceRule();
-//rule.hour = 21;
-//rule.minute = 20;
-
-//insert discord token
-client.login('');
+client.login(config.token);
