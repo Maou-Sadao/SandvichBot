@@ -7,6 +7,7 @@ Created by Maou Sadao (kj)
 - medic: Sends a ping to the user who used this command with a very delectible image
 - meme: Randomly generates a meme from one of currently 2 subreddits related to TF2
 - help: Prints a list of commands for the Bot
+- hang: Plays a simple game of hangspy (hangman spoof)
 
 # Required Modules
 - axios
