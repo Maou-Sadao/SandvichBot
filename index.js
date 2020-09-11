@@ -17,7 +17,7 @@ const prefix = config.prefix;
 
 client.once('ready', () => {  
     console.log('Sandvich is available in the fridge');
-    client.channels.cache.get('745807346927927316').send('The Sandvich is available in the Fridge. Commands will be accepted. \n ```Prefix: s!```')
+    //client.channels.cache.get('745807346927927316').send('The Sandvich is available in the Fridge. Commands will be accepted. \n ```Prefix: s!```')
     //Currently only able to post start up messages in specific channels based on ID
 });
 
